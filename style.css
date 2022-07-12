@@ -1,0 +1,15 @@
+.spacelessline {
+
+    line-height: 4em;
+
+}
+
+.donate {
+
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
