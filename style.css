@@ -1,15 +1,132 @@
-.spacelessline {
+.topbanner {
+    margin-top: 0%;
+    background: linear-gradient(to left, rgba(245, 246, 252, 0.1), rgba(0, 0, 0, 0.8)), url(./images/donation10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
 
-    line-height: 4em;
+
 
 }
 
-.donate {
 
+.donate {
     text-decoration: none;
     background: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+.banner {
+    text-align: center;
+    padding: 5% 20%;
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 200;
+
+
+
+}
+
+.amountK {
+    display: flex;
+    justify-content: center;
+    column-gap: 2%;
+    margin: 30px;
+
+
+
+
+}
+
+.middle {
+
+    text-align: center;
+    padding: 5% 20%;
+
+}
+
+.donate-today {
+
+    font-size: 40px;
+    font-weight: 60px;
+}
+
+.hundred {
+
+    padding: 40px;
+    border: 2px;
+    font-size: 30px;
+    font-weight: 70px;
+    background-color: aliceblue;
+
+}
+
+.two {
+
+    padding: 40px;
+    border: 2px;
+    color: orangered;
+    font-size: 30px;
+    font-weight: 70px;
+    border: 2px;
+    background-color: antiquewhite;
+}
+
+.five {
+
+    font-size: 30px;
+    font-weight: 70px;
+    padding: 40px;
+    border: 2px;
+    background-color: aliceblue;
+
+}
+
+.ten {
+    font-size: 30px;
+    font-weight: 70px;
+    padding: 40px;
+    border: 2px;
+    border-color: black;
+    background-color: aliceblue;
+}
+
+.input-data {
+    justify-content: center;
+    margin: 5px 43%;
+
+}
+
+.input-data input {
+
+    height: 60px;
+    border: none;
+    border-bottom: 2px solid silver;
+
+
+
+
+}
+
+.ourdonateplan {
+    display: flex;
+    gap: 2%;
+}
+
+.food {
+    padding: 20px 10px;
+    background-color: rgb(207, 220, 216);
+}
+
+.shelter {
+    padding: 20px 10px;
+    background-color: rgb(240, 220, 198);
+}
+
+.education {
+    padding: 20px 10px;
+    background-color: bisque;
 }
